@@ -1,4 +1,4 @@
-# Hepato cellular Carcinoma Prediction
+# Hepatocellular Carcinoma Prediction
 > - This work was conducted using the dataset of HCC. The dataset includes N=217 patients diagnosed with Hepatocellular Carcinoma (HCC). A detailed description of the heterogenous dataset comparing 16 quantitative features and 9 qualitative features (n=16+9=25) is shown in the next table. Split the data into training and testing, the training data was 173 samples, and the testing data was 44 samples.
 > - K-fold cross-validation was used with the number of k=5, at each iteration the data is split into 174 training samples and 43 testing samples.
 One vs. all approach had been used as the problem is multi-class classification.
