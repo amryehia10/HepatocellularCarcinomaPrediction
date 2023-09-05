@@ -1,1 +1,6 @@
 # HepatocellularCarcinomaPrediction
+> - This work was conducted using the dataset of HCC. The dataset includes N=217 patients diagnosed with Hepatocellular Carcinoma (HCC). A detailed description of heterogenous dataset comparing 16 quantitative features and 9 qualitative features (n=16+9=25) is shown in the next table.Split the data into training and testing, the training data was 173 samples, and the testing data was 44 samples.
+> - K-fold cross validation had been used with number of k=5, at each iteration the data is split into 174 training samples and 43 testing samples.
+One vs. all approach had been used as the problem is multi class classification.
+> - Each model had been trained and evaluated it before applying feature selection and PCA and train the best 2 models after applying the feature selection and PCA.
+> - Feature-feature correlation had been applied for the whole available data set using Pearson correlation and then, applied Feature-feature correlation for the whole available data set using Fisher correlation. The important features had been chosen based on the CFS method. After that PCA was applied on the selected features. First the data had been explored and relationships between its features using visualization plots.
